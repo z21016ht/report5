@@ -17,7 +17,7 @@ then
 	exit 1
 fi
 
-if expr $1 : "[0-9]*$" >&/dev/null && expr $2 : "[0-9]*$" >&/dev/null;
+if expr $1 : "[1-9]*$" >&/dev/null && expr $2 : "[1-9]*$" >&/dev/null;
 then
 	value=`calc_GDC $1 $2`
 	echo ${value}
