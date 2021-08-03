@@ -1,0 +1,3 @@
+langurage: bash
+script:
+        - ./report5-test.sh
